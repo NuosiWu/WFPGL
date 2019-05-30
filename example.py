@@ -40,7 +40,7 @@ lambda1 = .05
 lambda2 = .01
 ONEsetting = WFPGL.WFPGL(Y,pathways,lambda1,lambda2,prior,"fused",mu=1,maxiter=1000)
 funcValue = ONEsetting.admm_for_mjgl() # value of objective function
-output = ONERUN.THETA1 # output precision matrices
+output = ONEsetting.THETA1 # output precision matrices
 
 
 
