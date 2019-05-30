@@ -5,7 +5,7 @@ This implement requires the package of the modified version of Pathway Graphical
 
 # Installation
 To install PGL, run:
-```python
+```
 python setup.py build_ext --inplace
 ```
 Dependencies: numpy,cython,networkx
