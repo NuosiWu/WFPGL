@@ -8,7 +8,7 @@ To install PGL, run:
 ```
 python setup.py build_ext --inplace
 ```
-Dependencies: numpy,cython,networkx
+Dependencies: numpy, cython, networkx
 
 # Data Decription
 We provide preprocessed data of diabetets and breast cancer in each directories, and as well as a synthetic dataset for simulation.
