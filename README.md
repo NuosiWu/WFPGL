@@ -11,7 +11,7 @@ python setup.py build_ext --inplace
 Dependencies: numpy, cython, networkx
 
 # Data Description
-We provide preprocessed data of diabetets and breast cancer in each directories, and as well as a synthetic dataset for simulation.
+We provide preprocessed data of diabetets and breast cancer in each directories, and a synthetic dataset for simulation study.
 
 # Run the algorithm
 The example.py shows how to perform WFPGL on the synthetic data.
